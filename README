@@ -1,0 +1,63 @@
+HaBot - Chatbot com Contexto de Sites e Vídeos
+Este projeto é um chatbot de linha de comando chamado AsimoBot, construído em Python. Ele é capaz de responder a perguntas com base no conteúdo de uma página da web ou na transcrição de um vídeo do YouTube.
+
+Funcionalidades
+Conversar com base no conteúdo de qualquer URL de site.
+
+Conversar com base na transcrição de vídeos do YouTube (que possuam legendas em português ou inglês).
+
+Utiliza a API da Groq com o modelo Llama 3.1 para geração de respostas rápidas.
+
+
+
+Configuração do Projeto
+Siga os passos abaixo para configurar e rodar o projeto localmente.
+
+
+1. Pré-requisitos
+Python 3.10 ou superior.
+
+Git instalado na sua máquina.
+
+2. Clonar e Configurar o Ambiente
+Primeiro, clone o repositório e navegue para a pasta do projeto:
+
+git clone <URL_DO_SEU_REPOSITORIO_AQUI>
+cd <NOME_DA_PASTA_DO_PROJETO>
+
+Crie um ambiente virtual para isolar as dependências:
+
+python -m venv .venv
+
+Ative o ambiente virtual:
+
+Windows:
+
+.\.venv\Scripts\activate
+
+macOS/Linux:
+
+source .venv/bin/activate
+
+3. Instalar as Dependências
+Com o ambiente virtual ativado, instale todas as bibliotecas necessárias usando o arquivo requirements.txt:
+
+pip install -r requirements.txt
+
+Nota: A primeira execução pode levar algum tempo para baixar os modelos de embedding.
+
+4. Configurar a Chave de API
+O projeto precisa de uma chave de API da Groq para funcionar.
+
+Crie um arquivo chamado .env na raiz do projeto.
+
+Dentro deste arquivo, adicione sua chave de API no seguinte formato:
+
+GROQ_API_KEY="sua_chave_de_api_aqui"
+
+Como Rodar o Bot
+Com tudo configurado, execute o script principal:
+
+python ChatBot.py
+
+Siga as instruções no terminal para escolher uma fonte de dados (site ou vídeo) e comece a conversar!
