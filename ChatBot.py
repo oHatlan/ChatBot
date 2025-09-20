@@ -20,7 +20,7 @@ def formatar_texto(texto, largura=100):
     return "\n".join(textwrap.wrap(texto, width=largura))
 
 def resposta_bot(mensagens, documento):
-  mensagem_system = '''Você é um assistente amigável chamado Asimo.
+  mensagem_system = '''Você é um assistente amigável chamado Habot.
   Você utiliza as seguintes informações para formular as suas respostas: {informacoes}'''
   mensagens_modelo = [('system', mensagem_system)]
   mensagens_modelo += mensagens
@@ -89,7 +89,7 @@ def carrega_site():
         return None
 
 
-print("Bem vindo ao AsimoBot")
+print("Bem vindo ao HaBot")
 texto_selecao = '''Comece carregando uma fonte de dados ou faça uma pergunta.
 Comandos disponíveis:
 Digite 1 - Para conversar com um site.
