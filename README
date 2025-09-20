@@ -1,5 +1,5 @@
 HaBot - Chatbot com Contexto de Sites e Vídeos
-Este projeto é um chatbot de linha de comando chamado AsimoBot, construído em Python. Ele é capaz de responder a perguntas com base no conteúdo de uma página da web ou na transcrição de um vídeo do YouTube.
+Este projeto é um chatbot de linha de comando chamado HaBot, construído em Python. Ele é capaz de responder a perguntas com base no conteúdo de uma página da web ou na transcrição de um vídeo do YouTube.
 
 Funcionalidades
 Conversar com base no conteúdo de qualquer URL de site.
